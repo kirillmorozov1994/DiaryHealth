@@ -2,14 +2,12 @@
 
 # dependencies
 /node_modules
+/src
 /.pnp
 .pnp.js
 
 # testing
 /coverage
-
-# production
-/src
 
 #initial_data
 /initial_data
