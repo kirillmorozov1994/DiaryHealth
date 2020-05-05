@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-'use strick';
+'use strict';
 
 let slideIndex = 1,
 		slides = document.querySelectorAll('.header-box__bg'),
