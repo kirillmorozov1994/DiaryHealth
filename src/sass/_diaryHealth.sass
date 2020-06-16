@@ -1,0 +1,67 @@
+.diaryHealth
+	padding-top: 147px
+	position: relative
+	z-index: 10
+	padding-bottom: 80px
+	&-box
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-phone
+		margin-left: 122px
+	&-content
+		margin-right: 102px
+		&__title
+			color: $colorTextMockup
+			font-family: "CeraStencilPro", sans-serif
+			font-size: 36px
+			font-weight: 500
+			margin-bottom: 29px
+		&__subtitle
+			color: $colorTextMockup
+			font-family: "CeraStencilPro", sans-serif
+			font-size: 16px
+			font-weight: 500
+			margin-bottom: 25px
+		&__desc
+			&__item
+				position: relative
+				margin-bottom: 30px
+				color: $colorTextMockup
+				font-family: "CeraStencilPro", sans-serif
+				font-size: 16px
+				font-weight: 500
+				margin-left: 15px
+				&::before
+					content: ''
+					position: absolute
+					left: -15px
+					top: 7px
+					width: 5px
+					height: 5px
+					border-radius: 50%
+					border: 1px solid $colorCircle
+					background-color: $colorCircle
+		&__btn
+			margin-top: 40px
+			&__more
+				width: 200px
+				height: 60px
+				border-radius: 30px
+				border: none
+				color: $colorText
+				font-family: "CeraStencilPro", sans-serif
+				font-size: 16px
+				font-weight: 700
+				background-color: $colorMoreBtnPassive
+				transition: all 0.5s
+				&:hover
+					cursor: pointer
+					background-color: $colorMoreBtnHover
+					width: 260px
+					color: $colorWhite
+	&-pulse
+		position: absolute
+		bottom: -52px
+		right: 65px
+		z-index: 1
